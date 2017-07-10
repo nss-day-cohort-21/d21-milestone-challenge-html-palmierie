@@ -1,0 +1,44 @@
+body {
+    background-color: slateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.wrapper {
+    width:90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    background-color: pink;
+}
+.flex-nav-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-nav-child {
+    margin: 0 auto;
+}
+
+.bio{
+    width: 45%;
+    padding: 40px 20px;
+    color: white;
+    line-height: 1.25em;
+}
+.bio-wrapper{
+    background-image: url("../images/eric-in-trees.jpg");
+    background-size: 100%;
+    
+}
